@@ -1,13 +1,14 @@
 #top-nav-bar {
   overflow: hidden;
   background-color: black;
+  padding: 10px;
 
 }
 #free-ship {
   padding-right: 300px;
 }
 
-.navbar {
+.top-navbar {
     margin-top: 100px;
     display: inline;
 
