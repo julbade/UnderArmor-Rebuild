@@ -5,13 +5,9 @@
 }
 nav {
   position: sticky;
-  top:0; 
+  top:0;
 
 }
-
-
-
-
 
 .under-navbar {
     margin-top: 100px;
@@ -24,8 +20,8 @@ a {
     text-decoration: none;
     color: black;
     padding-right: 13px;
-    font-size: 18px;
-    font-family: times;
+    font-size: 15px;
+    font-family: sans-serif;
     display:run-in;
     line-height: 10vh;
     position: relative;
