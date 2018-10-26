@@ -1,0 +1,31 @@
+#under-nav-bar {
+  overflow: hidden;
+  background-color: red;
+
+}
+
+.under-navbar {
+    margin-top: 100px;
+    display: inline;
+
+}
+a {
+    text-decoration: none;
+    color: black;
+    padding-right: 50px;
+    font-size: 15px;
+    font-family: times;
+
+
+
+}
+
+ul {
+
+    text-align: center;
+  }
+#navbar-logo{
+  height: 70px;
+  width: 70px;
+  padding-top: 20px;
+}
