@@ -5,8 +5,12 @@
 
 #### By **Julius Bade**
 
+## GitHub Repository: https://github.com/julbade/UnderArmour-Rebuild
+
 ## Description
   This program is a rebuild website of Under Armour https://www.underarmour.com/en-us.
+  This is still on a working process for the back-end.
+  As of now all of the program are front-end.
 
 
   ### Specs
