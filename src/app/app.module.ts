@@ -8,6 +8,7 @@ import { UnderNavbarComponent } from './under-navbar/under-navbar.component';
 import { TopRowComponent } from './top-row/top-row.component';
 import { MiddleRowComponent } from './middle-row/middle-row.component';
 import { MidSectionComponent } from './mid-section/mid-section.component';
+import { UnderMidsectionComponent } from './under-midsection/under-midsection.component';
 
 
 @NgModule({
@@ -17,7 +18,8 @@ import { MidSectionComponent } from './mid-section/mid-section.component';
     UnderNavbarComponent,
     TopRowComponent,
     MiddleRowComponent,
-    MidSectionComponent
+    MidSectionComponent,
+    UnderMidsectionComponent
   ],
   imports: [
     BrowserModule

@@ -1,0 +1,22 @@
+.curry-five {
+  text-align: left;
+  padding-top: 50px;
+  font-family: sans-serif;
+  font-weight: bold;
+}
+.curry-five h1 {
+  text-align: left;
+  margin-left:  30px;
+}
+
+.nba-combine {
+  text-align: right;
+  margin-top: -85px;
+  font-family: sans-serif;
+  font-weight: bold;
+}
+.nba-combine p{
+  text-align: right;
+  margin-right: 30px;
+
+}
