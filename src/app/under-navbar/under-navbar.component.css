@@ -1,31 +1,50 @@
 #under-nav-bar {
   overflow: hidden;
-  background-color: red;
+  background-color: white;
+  min-height: 50px;
 
 }
 
 .under-navbar {
     margin-top: 100px;
     display: inline;
+    text-align: center;
+
 
 }
 a {
     text-decoration: none;
     color: black;
-    padding-right: 50px;
+    padding-right: 30px;
     font-size: 15px;
     font-family: times;
-
-
+    display:run-in;
+    line-height: 10vh;
+}
+i {
+  padding-left: 20px;
 
 }
 
 ul {
 
     text-align: center;
+    float:inherit;
   }
 #navbar-logo{
-  height: 70px;
-  width: 70px;
+  height: 100px;
+  width: 100px;
   padding-top: 20px;
+  float: left;
+  display: block;
+  padding: inherit;
+}
+#search {
+
+  margin-right: 60px;
+  position: relative;
+  top: -1px;
+  left: 70px;
+  line-height: 2em;
+  padding-right: 60px;
 }
