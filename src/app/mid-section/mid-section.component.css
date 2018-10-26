@@ -1,0 +1,17 @@
+#curry {
+  width: 50%;
+  height: 500px;
+  float: left;
+  padding-right: 1px;
+  padding-top: 10px;
+  margin-top: 20px;
+
+}
+ #nba-combine {
+   width: 50%;
+   height: 500px;
+   float: right;
+   padding-left: 1px;
+   padding-top: 10px;
+   margin-top: 20px;
+ }
