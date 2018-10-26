@@ -1,11 +1,15 @@
 #top-nav-bar {
   overflow: hidden;
   background-color: black;
-
-
+}
+nav {
+  position:sticky;
+  top:0;
 
 
 }
+
+
 #free-ship {
   padding-right: 300px;
 }

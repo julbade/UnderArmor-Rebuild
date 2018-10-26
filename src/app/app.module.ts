@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 import { NavBarComponent } from './nav-bar/nav-bar.component';
 import { UnderNavbarComponent } from './under-navbar/under-navbar.component';
 import { TopRowComponent } from './top-row/top-row.component';
+import { MiddleRowComponent } from './middle-row/middle-row.component';
 
 
 @NgModule({
@@ -13,7 +14,8 @@ import { TopRowComponent } from './top-row/top-row.component';
     AppComponent,
     NavBarComponent,
     UnderNavbarComponent,
-    TopRowComponent
+    TopRowComponent,
+    MiddleRowComponent
   ],
   imports: [
     BrowserModule
