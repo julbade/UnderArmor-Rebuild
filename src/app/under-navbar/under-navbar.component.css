@@ -2,7 +2,9 @@
   overflow: hidden;
   background-color: white;
   min-height: 50px;
-  font-family:sans-serif;
+  position: sticky;
+  top: 0px;
+
 
 }
 
@@ -17,13 +19,14 @@ a {
     text-decoration: none;
     color: black;
     padding-right: 13px;
-    font-size: 20px;
+    font-size: 18px;
     font-family: times;
     display:run-in;
     line-height: 10vh;
     position: relative;
-    top: 20px;
+    top: 10px;
     left: 100px;
+    font-weight: bold;
 }
 i {
   padding-left: 20px;
@@ -36,7 +39,7 @@ ul {
 }
 
 #navbar-logo{
-  height: 100px;
+  height: 80px;
   width: 100px;
   padding-top: 20px;
   float: left;
@@ -44,7 +47,7 @@ ul {
   padding: inherit;
 }
 #heart-logo, #shopping-logo {
-  height: 100px;
+  height: 80px;
   width: 100px;
   padding-top: 20px;
   float: right;
@@ -55,7 +58,7 @@ ul {
 
   margin-right: 60px;
   position: relative;
-  top: 20px;
+  top: 10px;
   left: 170px;
   line-height: 1.5em;
   padding-right: 70px;
