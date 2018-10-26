@@ -1,0 +1,14 @@
+#top-row {
+position: relative;
+height: 600px;
+width: 700px;
+margin-left: 15px;
+margin-right: auto;
+height:
+
+}
+#top-row img {
+position: absolute;
+right: 0;
+bottom: 0;
+}
