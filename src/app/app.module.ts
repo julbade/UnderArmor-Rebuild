@@ -18,6 +18,7 @@ import { AngularFireDatabaseModule } from 'angularfire2/database';
 import { AppRoutingModule } from './app-routing.module';
 import { ShoesComponent } from './shoes/shoes.component';
 import { ShoesDetailComponent } from './shoes-detail/shoes-detail.component';
+import { WelcomeComponent } from './welcome/welcome.component';
 
 
 
@@ -42,7 +43,8 @@ export const firebaseConfig = {
     InstagramComponent,
     AdminComponent,
     ShoesComponent,
-    ShoesDetailComponent
+    ShoesDetailComponent,
+    WelcomeComponent
   ],
   imports: [
     BrowserModule,

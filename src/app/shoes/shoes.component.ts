@@ -17,6 +17,7 @@ export class ShoesComponent implements OnInit {
   shoes: FirebaseListObservable<any[]>;
   goToDetailPage(clickedShoes) {
     this.router.navigate(['shoes', clickedShoes.$key]);
+    console.log(clickedShoes.$key);
   }
 
   ngOnInit() {

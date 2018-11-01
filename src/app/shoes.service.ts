@@ -19,7 +19,7 @@ export class ShoesService {
   }
 
   getShoesById(shoesId: string){
-  return this.database.object('shoes' + shoesId)
+  return this.database.object('shoes/' + shoesId)
   }
 
 }

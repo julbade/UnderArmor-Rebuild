@@ -1,7 +1,10 @@
 <div class="container">
-
   <h3>{{(shoesToDisplay | async)?.name}}</h3>
   <h4>{{(shoesToDisplay | async)?.price}}</h4>
   <p>{{(shoesToDisplay | async)?.size}}</p>
 </div>
-<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<!-- <br><br><br><br><br><br><br> -->
+
+<p>
+  {{shoesToDisplay | async | json}}
+</p>
