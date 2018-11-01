@@ -19,7 +19,14 @@ export class ShoesService {
   }
 
   getShoesById(shoesId: string){
-  return this.database.object('shoes/' + shoesId)
+  return this.database.object('/shoes/' + shoesId)
+  }
+
+  updateShoes(localUpdatedShoes){
+    var shoesEntryInFirebase = this.getShoesById(localUpdatedShoes.$key);
+    shoesEntryInFirebase.update({name: localUpdatedShoes.name,
+                                price: localUpdatedShoes.price,
+                                size: localUpdatedShoes.size});
   }
 
 }

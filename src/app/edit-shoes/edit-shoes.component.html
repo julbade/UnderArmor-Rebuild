@@ -1,3 +1,14 @@
-<p>
-  edit-shoes works!
-</p>
+<h4>Edit Shoes</h4>
+
+<label>New Shoes Name:</label>
+<input [(ngModel)]="selectedShoes.name">
+<br>
+
+<label>New Shoes Price:</label>
+<input [(ngModel)]="selectedShoes.price">
+<br>
+
+<label>New Shoes Size:</label>
+<input [(ngModel)]="selectedShoes.size">
+
+<button (click)="beginUpdatingShoes(selectedShoes)">Update</button>

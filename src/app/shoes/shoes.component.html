@@ -2,15 +2,17 @@
 <div class="container">
 <h1>Our Shoes</h1>
 <hr>
-
-<div *ngFor="let shoe of shoes | async" (click)="goToDetailPage(shoe)" class="card">
+<div *ngFor="let shoe of shoes | async"  class="card">
   <div class="card-body">
-
-    <h3>Name: {{shoe.name}} | Price: {{shoe.price}}$</h3>
+    <h3 (click)="goToDetailPage(shoe)">Name: {{shoe.name}} | Price: {{shoe.price}}$</h3>
     <h3>Size: {{shoe.size}}</h3>
     <hr>
+    <div *ngIf="currentRoute === '/admin'">
+          <h2>{{shoe.name}}</h2>
+          <hr>
+          <app-edit-shoes [selectedShoes]="shoe"></app-edit-shoes>
+        </div>
   </div>
 </div>
 </div>
-
-<br><br><br><br><br><br><br><br><br><br><br><br><br>
+<br><br><br>
