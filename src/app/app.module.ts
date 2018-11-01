@@ -19,6 +19,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { ShoesComponent } from './shoes/shoes.component';
 import { ShoesDetailComponent } from './shoes-detail/shoes-detail.component';
 import { WelcomeComponent } from './welcome/welcome.component';
+import { EditShoesComponent } from './edit-shoes/edit-shoes.component';
 
 
 
@@ -44,7 +45,8 @@ export const firebaseConfig = {
     AdminComponent,
     ShoesComponent,
     ShoesDetailComponent,
-    WelcomeComponent
+    WelcomeComponent,
+    EditShoesComponent
   ],
   imports: [
     BrowserModule,

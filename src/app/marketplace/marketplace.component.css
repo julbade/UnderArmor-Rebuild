@@ -27,6 +27,7 @@ a {
     left: 100px;
     font-weight: bold;
 }
+
 i {
   padding-left: 20px;
 
@@ -39,11 +40,12 @@ ul {
 
 #navbar-logo{
   height: 70px;
-  width: 80px;
+  width: 60px;
   padding-top: 20px;
   float: left;
   display: block;
-  padding: inherit;
+  margin-left: -20px;
+
 }
 #heart-logo, #shopping-logo {
   height: 80px;
