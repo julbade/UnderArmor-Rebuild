@@ -1,29 +1,29 @@
 <div class="container">
   <div class="panel panel-success">
     <div class="panel-heading">
-      <h3 class="panel-title">Add New Album to Inventory</h3>
+      <h3 class="panel-title">Add New Shoes to Inventory</h3>
     </div>
     <div class="panel-body">
       <div>
         <div>
-          <label>Album Title:</label>
+          <label>Shoes Name:</label>
           <br>
-          <input #newTitle>
+          <input #newName>
         </div>
 
         <div>
-          <label>Album Artist:</label>
+          <label>Shoes Price:</label>
           <br>
-          <input #newArtist>
+          <input #newPrice>
         </div>
 
         <div>
-          <label>Album Description:</label>
+          <label>Shoes Size:</label>
           <br>
-          <textarea #newDescription></textarea>
+          <input #newSize>
         </div>
- <button class="btn btn-success" (click)="submitForm(newTitle.value, newArtist.value, newDescription.value); newTitle.value='';
- newArtist.value=''; newDescription.value=''">Add</button>
+ <button class="btn btn-success" (click)="submitForm(newName.value, newPrice.value, newSize.value); newName.value='';
+ newPrice.value=''; newSize.value=''">Add</button>
  </div>
     </div>
   </div>
