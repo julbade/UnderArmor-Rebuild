@@ -2,18 +2,16 @@
   overflow: hidden;
   background-color: white;
   min-height: 50px;
-}
-nav {
   position: sticky;
   top:0;
 
 }
 
+
 .under-navbar {
     margin-top: 100px;
     display: inline;
     text-align: center;
-
 
 }
 a {
@@ -54,6 +52,7 @@ ul {
   float: right;
   display: block;
   padding: inherit;
+
 }
 #search {
 

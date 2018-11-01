@@ -1,13 +1,11 @@
 #top-nav-bar {
   overflow: hidden;
   background-color: black;
-}
-nav {
-  position:sticky;
+  position: sticky;
   top:0;
 
-
 }
+
 
 
 #free-ship {
@@ -32,3 +30,4 @@ ul {
 
     text-align: right
   }
+  
