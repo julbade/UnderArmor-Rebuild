@@ -7,7 +7,7 @@ export class ShoesService {
   shoes: FirebaseListObservable<any[]>;
 
   constructor(private database: AngularFireDatabase) {
-    this.shoes = database.list('underarmour-rebuild-6546c');
+    this.shoes = database.list('shoes');
   }
 
   getShoes(){
@@ -19,7 +19,7 @@ export class ShoesService {
   }
 
   getShoesById(shoesId: string){
-  return this.database.object('underarmour-rebuild-6546c/' + shoesId)
+  return this.database.object('shoes' + shoesId)
   }
 
 }

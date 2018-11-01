@@ -1,3 +1,16 @@
-<p>
-  shoes works!
-</p>
+
+<div class="container">
+<h2>Our Shoes</h2>
+<hr>
+
+<div *ngFor="let shoe of shoes | async" (click)="goToDetailPage(shoe)" class="card">
+  <div class="card-body">
+
+    <h3>Name: {{shoe.name}} | Price: {{shoe.price}}$</h3>
+    <h3>Size: {{shoe.size}}</h3>
+    <hr>
+  </div>
+</div>
+</div>
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br>
