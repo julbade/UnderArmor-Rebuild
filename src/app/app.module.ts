@@ -11,6 +11,8 @@ import { MidSectionComponent } from './mid-section/mid-section.component';
 import { UnderMidsectionComponent } from './under-midsection/under-midsection.component';
 import { AthleteComponent } from './athlete/athlete.component';
 import { InstagramComponent } from './instagram/instagram.component';
+import { FooterComponent } from './footer/footer.component';
+import { AdminComponent } from './admin/admin.component';
 
 
 @NgModule({
@@ -23,7 +25,9 @@ import { InstagramComponent } from './instagram/instagram.component';
     MidSectionComponent,
     UnderMidsectionComponent,
     AthleteComponent,
-    InstagramComponent
+    InstagramComponent,
+    FooterComponent,
+    AdminComponent
   ],
   imports: [
     BrowserModule
