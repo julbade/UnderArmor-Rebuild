@@ -6,11 +6,13 @@
 #### By **Julius Bade**
 
 ## GitHub Repository: https://github.com/julbade/UnderArmour-Rebuild
+## FireBase App: https://underarmour-rebuild-6546c.firebaseapp.com/
 
 ## Description
   This program is a rebuild website of Under Armour https://www.underarmour.com/en-us.
-  This is still on a working process for the back-end.
-  As of now all of the program are front-end.
+  This is still on a working process for the back-end like add to cart and search.
+  As of now all of the program are front-end and some log in to access Admin Component.
+  For api-keys issues please generate your own key to access firebase.
 
 
   ### Specs
@@ -59,6 +61,9 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 * NPM
 * Jasmine
 * Karma
+* Typescript
+* Angular
+* Firebase
 
 
 ## Support and contact details
