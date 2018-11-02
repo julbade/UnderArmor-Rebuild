@@ -1,9 +1,30 @@
+#top-nav-bar {
+  overflow: hidden;
+  background-color: black;
+  position: sticky;
+  top:0;
 
-.footer {
-  position: fixed;
-  bottom: 0;
-  width: 100%;
-  height: 60px;
-  background-color: #f5f5f5;
-  padding: 15px;
 }
+
+#free-ship {
+  padding-right: 300px;
+}
+
+.top-navbar {
+    margin-top: 100px;
+    display: inline;
+
+}
+a {
+    text-decoration: none;
+    color: white;
+    padding-right: 50px;
+    font-size: 15px;
+    font-family: serif;
+
+}
+
+ul {
+
+    text-align: right
+  }

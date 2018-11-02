@@ -1,12 +1,24 @@
 
-<app-nav-bar></app-nav-bar>
+<div id="top-nav-bar">
+    <nav>
+      <ul>
+          <li class="top-navbar"><a id="free-ship" href="#free">FREE Returns & FREE Shipping Available - See Details></a></li>
+          <li class="top-navbar"><a href="#">Chat</a></li>
+          <li class="top-navbar"><a href="#">Stores</a></li>
+          <li *ngIf="isLoggedIn" class="top-navbar">
+        <a>{{userName}}</a>
+        <a (click)="logout()">Log out</a>
+      </li>
+      <li *ngIf ="!isLoggedIn" class="top-navbar">
+        <a (click)="login()">Log in</a>
+      </li>
+      </ul>
+    </nav>
+  </div>
+
 <app-marketplace></app-marketplace>
 
 <router-outlet></router-outlet>
 <br><br>
-<footer class="footer">
-  <div class="container">
-    <a class="text-muted" routerLink="admin">Admin</a>
-     </div>
-</footer>
+
 <br>

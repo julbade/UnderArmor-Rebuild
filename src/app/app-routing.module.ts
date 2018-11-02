@@ -8,7 +8,8 @@ import { MenComponent } from './men/men.component';
 import { WomensComponent } from './womens/womens.component';
 import { BoysComponent } from './boys/boys.component';
 import { GirlsComponent } from './girls/girls.component';
-import { ShopComponent } from './shop/shop.component'
+import { ShopComponent } from './shop/shop.component';
+
 
 
 
@@ -21,7 +22,7 @@ const routes: Routes = [
   { path: 'girls', component: GirlsComponent},
   { path: 'shop', component: ShopComponent},
   { path: 'shoes/:id', component: ShoesDetailComponent},
-  { path: 'admin', component: AdminComponent}
+  { path: 'admin', component: AdminComponent},
 ]
 
 @NgModule({

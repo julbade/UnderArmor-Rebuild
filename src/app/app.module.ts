@@ -3,7 +3,6 @@ import { FormsModule } from '@angular/forms';
 import { NgModule } from '@angular/core';
 import { HttpModule } from '@angular/http';
 import { AppComponent } from './app.component';
-import { NavBarComponent } from './nav-bar/nav-bar.component';
 import { MarketPlaceComponent } from './marketplace/marketplace.component';
 import { TopRowComponent } from './top-row/top-row.component';
 import { MiddleRowComponent } from './middle-row/middle-row.component';
@@ -14,6 +13,7 @@ import { InstagramComponent } from './instagram/instagram.component';
 import { AdminComponent } from './admin/admin.component';
 import { masterFirebaseConfig } from './api-keys';
 import { AngularFireModule } from 'angularfire2';
+import { AngularFireAuthModule } from 'angularfire2/auth';
 import { AngularFireDatabaseModule } from 'angularfire2/database';
 import { AppRoutingModule } from './app-routing.module';
 import { ShoesComponent } from './shoes/shoes.component';
@@ -25,6 +25,11 @@ import { WomensComponent } from './womens/womens.component';
 import { BoysComponent } from './boys/boys.component';
 import { GirlsComponent } from './girls/girls.component';
 import { ShopComponent } from './shop/shop.component';
+import { AuthenticationService } from './authentication.service';
+import { AuthGuard } from './auth-guard.service';
+
+
+
 
 
 
@@ -39,7 +44,6 @@ export const firebaseConfig = {
 @NgModule({
   declarations: [
     AppComponent,
-    NavBarComponent,
     MarketPlaceComponent,
     TopRowComponent,
     MiddleRowComponent,
@@ -56,7 +60,9 @@ export const firebaseConfig = {
     WomensComponent,
     BoysComponent,
     GirlsComponent,
-    ShopComponent
+    ShopComponent,
+  
+
   ],
   imports: [
     BrowserModule,
@@ -64,9 +70,10 @@ export const firebaseConfig = {
     HttpModule,
     AppRoutingModule,
     AngularFireModule.initializeApp(firebaseConfig),
-   AngularFireDatabaseModule
+   AngularFireDatabaseModule,
+   AngularFireAuthModule
   ],
-  providers: [],
+  providers: [AuthGuard, AuthenticationService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
