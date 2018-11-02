@@ -7,7 +7,8 @@ import { WelcomeComponent } from './welcome/welcome.component';
 import { MenComponent } from './men/men.component';
 import { WomensComponent } from './womens/womens.component';
 import { BoysComponent } from './boys/boys.component';
-import { GirlsComponent} from './girls/girls.component';
+import { GirlsComponent } from './girls/girls.component';
+import { ShopComponent } from './shop/shop.component'
 
 
 
@@ -18,6 +19,7 @@ const routes: Routes = [
   { path: 'men', component: MenComponent},
   { path: 'boys', component: BoysComponent},
   { path: 'girls', component: GirlsComponent},
+  { path: 'shop', component: ShopComponent},
   { path: 'shoes/:id', component: ShoesDetailComponent},
   { path: 'admin', component: AdminComponent}
 ]
