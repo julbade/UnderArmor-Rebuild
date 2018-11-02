@@ -10,5 +10,6 @@
 
 <label>New Shoes Size:</label>
 <input [(ngModel)]="selectedShoes.size">
-
-<button (click)="beginUpdatingShoes(selectedShoes)">Update</button>
+<br>
+<button class="btn btn-info" (click)="beginUpdatingShoes(selectedShoes)">Update</button>
+<button class="btn btn-danger" (click)="beginDeletingShoes(selectedShoes)">Delete</button>

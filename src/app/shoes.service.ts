@@ -29,4 +29,9 @@ export class ShoesService {
                                 size: localUpdatedShoes.size});
   }
 
+  deleteShoes(localShoesToDelete){
+  var shoesEntryInFirebase = this.getShoesById(localShoesToDelete.$key);
+  shoesEntryInFirebase.remove();
+  }
+
 }

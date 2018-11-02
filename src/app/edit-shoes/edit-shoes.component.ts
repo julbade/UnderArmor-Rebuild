@@ -20,5 +20,10 @@ export class EditShoesComponent implements OnInit {
   beginUpdatingShoes(shoesToUpdate){
    this.shoesService.updateShoes(shoesToUpdate);
  }
+ beginDeletingShoes(shoesToDelete){
+    if(confirm("Are you sure you want to delete this item from the inventory?")){
+      this.shoesService.deleteShoes(shoesToDelete);
+    }
 
+  }
 }
