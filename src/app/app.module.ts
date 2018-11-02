@@ -21,6 +21,7 @@ import { ShoesDetailComponent } from './shoes-detail/shoes-detail.component';
 import { WelcomeComponent } from './welcome/welcome.component';
 import { EditShoesComponent } from './edit-shoes/edit-shoes.component';
 import { MenComponent } from './men/men.component';
+import { WomensComponent } from './womens/womens.component';
 
 
 
@@ -48,7 +49,8 @@ export const firebaseConfig = {
     ShoesDetailComponent,
     WelcomeComponent,
     EditShoesComponent,
-    MenComponent
+    MenComponent,
+    WomensComponent
   ],
   imports: [
     BrowserModule,
