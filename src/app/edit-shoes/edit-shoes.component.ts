@@ -12,7 +12,7 @@ import { ShoesService} from '../shoes.service';
 export class EditShoesComponent implements OnInit {
   @Input() selectedShoes;
 
-  constructor() { }
+  constructor(private shoesService: ShoesService) { }
 
   ngOnInit() {
   }
