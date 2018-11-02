@@ -1,16 +1,17 @@
 
 <div class="container">
 <h1>Our Shoes</h1>
+</div>
 <hr>
 <div *ngFor="let shoe of shoes | async"  class="card">
-  <div class="card-body">
-    <h3 (click)="goToDetailPage(shoe)">Name: <strong>{{shoe.name}}</strong> | Price: <strong>{{shoe.price}}$</strong></h3>
-    <h3>Size: <strong>{{shoe.size}}</strong></h3>
-    <hr>
+    <img src="https://pbs.twimg.com/profile_images/900080773629304832/qU9NvSOV_400x400.jpg" style="width:100%">
+    <h3 (click)="goToDetailPage(shoe)">Name: <strong>{{shoe.name}}</strong></h3>
+    <p class="price">{{shoe.price}}$</p>
+    <p>Size: {{shoe.size}}</p>
     <div *ngIf="currentRoute === '/admin'">
           <app-edit-shoes [selectedShoes]="shoe"></app-edit-shoes>
         </div>
   </div>
-</div>
-</div>
+
+
 <br><br><br>

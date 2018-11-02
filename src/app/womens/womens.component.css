@@ -6,6 +6,15 @@
   font-family: arial;
 }
 
+.card:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+  transform: scale(1.1);
+}
+
 .price {
   color: grey;
   font-size: 20px;
@@ -28,4 +37,7 @@
 }
 img {
   height: 300px;
+}
+h1 {
+  font-family: monospace;
 }
