@@ -23,6 +23,7 @@ import { EditShoesComponent } from './edit-shoes/edit-shoes.component';
 import { MenComponent } from './men/men.component';
 import { WomensComponent } from './womens/womens.component';
 import { BoysComponent } from './boys/boys.component';
+import { GirlsComponent } from './girls/girls.component';
 
 
 
@@ -52,7 +53,8 @@ export const firebaseConfig = {
     EditShoesComponent,
     MenComponent,
     WomensComponent,
-    BoysComponent
+    BoysComponent,
+    GirlsComponent
   ],
   imports: [
     BrowserModule,
