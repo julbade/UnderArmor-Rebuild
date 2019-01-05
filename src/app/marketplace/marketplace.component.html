@@ -1,17 +1,14 @@
-<div id="under-nav-bar">
-  <nav>
-      <ul>
-          <a href="/"><img src=".././assets/img/logo.png" id="navbar-logo"></a>
-          <li class="under-navbar"><a href="men">MEN</a></li>
-          <li class="under-navbar"><a href="womens">WOMEN</a></li>
-          <li class="under-navbar"><a href="boys">BOYS</a></li>
-          <li class="under-navbar"><a href="girls">GIRLS</a></li>
-          <li class="under-navbar"><a routerLink="shoes">SHOES</a></li>
-          <li class="under-navbar"><a href="#">OUTLET</a></li>
-          <li class="under-navbar"><input id="search" type="text" placeholder="Search..">
-          <a  href="#"><i class="fa fa-search"></i></a></li>
-          <a href="#"><i class="fa fa-heart" style="font-size:32px;"></i></a>
-          <a href="#"><i class="fa fa-shopping-bag" style="font-size:32px;"></i></a>
-          </ul>
-    </nav>
-  </div>
+
+
+<div class="topnav" id="myTopnav">
+  <a href="/" id="logo"><img src=".././assets/img/logo.png" id="navbar-logo"></a>
+  <a href="javascript:void(0);" class="icon" (click)="responsiveNavbar()">
+    <i class="fa fa-bars"></i>
+    </a>
+    <a href="men">MEN</a>
+    <a href="womens">WOMEN</a>
+    <a href="boys">BOYS</a>
+    <a href="girls">GIRLS</a>
+    <a routerLink="shoes">SHOES</a>
+    <a href="#">OUTLET</a>
+</div>

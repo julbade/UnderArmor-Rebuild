@@ -1,7 +1,7 @@
 img {
-  height: 310px;
-  width: 410px;
-  margin-left: -30px;
+  max-height: 310px;
+  height: auto;
+  width: 100%;
   float: left;
   padding: 20px;
   transition: .5s ease;
@@ -12,7 +12,8 @@ img {
 h2 {
   font-size: 20px;
   font-family:serif;
-  text-align: left;
+  text-align: center;
+  justify-content: center;
 }
 .shopping:hover #athlete {
   opacity: 0.3;

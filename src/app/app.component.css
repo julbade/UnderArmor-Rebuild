@@ -1,9 +1,19 @@
 #top-nav-bar {
   overflow: hidden;
   background-color: black;
-  position: sticky;
-  top:0;
+  width: 100%;
 
+}
+
+@media screen and (max-width: 1100px) {
+  #free-ship {
+    display: none;
+  }
+  #top-nav-bar {
+    display: inline-flexblock;
+    justify-content: center;
+    text-align: center;
+  }
 }
 
 #free-ship {
@@ -11,20 +21,20 @@
 }
 
 .top-navbar {
-    margin-top: 100px;
-    display: inline;
+  margin-top: 100px;
+  display: inline;
 
 }
 a {
-    text-decoration: none;
-    color: white;
-    padding-right: 50px;
-    font-size: 15px;
-    font-family: serif;
+  text-decoration: none;
+  color: white;
+  padding-right: 50px;
+  font-size: 15px;
+  font-family: serif;
 
 }
 
 ul {
 
-    text-align: right
-  }
+  text-align: right
+}
