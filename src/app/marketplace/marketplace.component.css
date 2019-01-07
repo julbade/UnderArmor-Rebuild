@@ -43,11 +43,12 @@
 
 @media screen and (max-width: 600px) {
   .topnav.responsive {
-    position: relative;
+    position: sticky;
+    top: 0;
     display: inline-block;
   }
   .topnav.responsive .icon {
-    display: none;
+    display: block;
     right: 0;
     top: 0;
 
