@@ -1,28 +1,46 @@
-.shopping {
-  height: auto;
+@media screen and (max-width: 800px) {
+  #curry{
+    max-height: 350px;
+  }
+  #nba-combine {
+      max-height: 350px;
+  }
 }
-.container {
-  justify-content: center;
+@media screen and (max-width: 600px) {
+  #curry{
+    max-height: 250px;
+  }
+  #nba-combine {
+    max-height: 250px;
+  }
+}
+@media screen and (max-width: 400px) {
+  #curry{
+    max-height: 150px;
+  }
+  #nba-combine {
+    max-height: 150px;
+  }
+}
+
+
+
+h1, p {
   text-align: center;
 }
 
 
+
 #curry {
   width: 100%;
-  max-height: 450px;
-  height: auto;
-  margin: 20px;
-  transition: .5s ease;
-  backface-visibility: hidden;
+  height: 450px;
+  transition: 1.5s ease;
   opacity: 1;
 }
  #nba-combine {
    width: 100%;
-   max-height: 300px;
-   height: auto;
-   margin: 20px;
-   transition: .5s ease;
-   backface-visibility: hidden;
+   height: 450px;
+   transition: 1.5s ease;
    opacity: 1;
  }
 
@@ -31,8 +49,4 @@
 }
 .shopping:hover #nba-combine {
   opacity: 0.3;
-}
-
-.shopping:hover .middle-button {
-  opacity: 1;
 }
